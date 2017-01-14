@@ -1,6 +1,6 @@
 {
   "name": "tuple-set",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES6 Set where keys are 2-tuples",
   "main": "index.js",
   "typings": "index.d.ts",
