@@ -16,6 +16,9 @@ export class TupleSet<T, U> {
     return '[object TupleSet]'
   }
   add(left: T, right: U): this {
+    if (this.has(left, right)) {
+      this.delete(left, right)
+    }
     this.state.add([left, right])
     return this
   }

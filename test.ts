@@ -5,6 +5,7 @@ test('#add', t => {
   const set = new TupleSet
   set.add(1, 2)
   set.add(3, 4)
+  set.add(3, 4)
   t.is(set.size, 2)
 })
 
